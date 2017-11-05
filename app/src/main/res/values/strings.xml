@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pong</string>
+    <string name="game_name">Pong!</string>
+    <string name="play">Play!</string>
+    <string name="you_win">You Win</string>
+    <string name="tap_to_back_to_menu">Tap to back to Menu</string>
+</resources>
