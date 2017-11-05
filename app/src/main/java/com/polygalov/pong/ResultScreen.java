@@ -18,19 +18,19 @@ public class ResultScreen extends Activity implements View.OnClickListener {
 
         String result = getIntent().getStringExtra("GAME_RESULT");
         if (result.equals("WIN")) {
-            gameResult.setText("You Win");
+            gameResult.setText(R.string.win);
         } else {
-            gameResult.setText("You Lose");
+            gameResult.setText(R.string.lose);
         }
 
-        RelativeLayout rlayout = (RelativeLayout) findViewById(R.id.game_result_layout);
-        rlayout.setOnClickListener(this);
+        RelativeLayout relativeLayout = findViewById(R.id.game_result_layout);
+        relativeLayout.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
-        Intent i = new Intent(this, MainActivity.class);
-        startActivity(i);
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
         finish();
     }
 }

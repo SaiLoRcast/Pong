@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pong</string>
+    <string name="game_name">Понг!</string>
+    <string name="play">Играть!</string>
+    <string name="you_win">Вы победили!</string>
+    <string name="tap_to_back_to_menu">Нажмите, чтобы попасть в главное меню</string>
+    <string name="win">Вы победили</string>
+    <string name="lose">Вы проиграли :(</string>
+</resources>
